@@ -18,4 +18,4 @@ spec:
       - name: udagram-api-user
         image: kellyobende/udagram-api-user:v5a
         ports:
-        - containerPort: 8080
+        - containerPort: 80
