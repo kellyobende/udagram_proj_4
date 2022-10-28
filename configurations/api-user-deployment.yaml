@@ -16,6 +16,14 @@ spec:
     spec:
       containers:
       - name: udagram-api-user
-        image: kellyobende/udagram-api-user:v5a
+        image: docker.io/kellyobende/udagram-api-user:v5a
         ports:
-        - containerPort: 80
+        - containerPort: 8080
+        resources:
+           requests:
+             memory: "1024Mi"
+             cpu: 500m
+           limits:
+             memory: "2092Mi"
+             cpu : 1000m
+       

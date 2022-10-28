@@ -15,7 +15,16 @@ spec:
         app: api-feed
     spec:
       containers:
-      - name: udagram-api-feed
+      - name: api-feed
         image: kellyobende/udagram-api-feed:v5a
         ports:
-        - containerPort: 80
+        - containerPort: 8080
+        resources:
+           requests:
+             memory: "1024Mi"
+             cpu: 500m
+           limits:
+             memory: "8192Mi"
+             cpu : 1000m
+      
+    
