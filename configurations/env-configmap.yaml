@@ -4,7 +4,7 @@ metadata:
   name: env-config
   
 data:
-  POSTGRES_HOST: cidr.cela7ika3yxh.us-east-1.rds.amazonaws.com
+  POSTGRES_HOST: cidr.cxfmjcyo5uic.us-east-1.rds.amazonaws.com
   POSTGRES_DB: postgres
   AWS_BUCKET: test-129137567697-dev
   AWS_REGION: us-east-1
